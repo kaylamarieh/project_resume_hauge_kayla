@@ -13,3 +13,31 @@ font-family: 'Raleway', sans-serif;
 #fdeef0 - pale pink
 #0c2630 - dark blue
 ***/
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #fdeef0;
+}
+
+#edu {
+    background-color: #d9c3df;
+}
+
+#work {
+    background-color: #ccecfc;
+}
+
+#skills {
+    background-color: #ddeedd;
+}
+
+#interests {
+    background-color: #fcf7be;
+}
+
+footer {
+    background-color: #faced6;
+}
