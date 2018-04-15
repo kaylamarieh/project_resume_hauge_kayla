@@ -149,9 +149,6 @@ a:visited {
 
 #contact p {
     text-align: center;
-}
-
-#contact p {
     font-size: 1.3em;
     padding: 3%;
 }
@@ -223,6 +220,24 @@ a:visited {
 
     #contact img {
         width: 5%;
+    }
+
+    main h2,
+    footer h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+    #contact p,
+    p {
+        font-size: 1.5em;
+    }
+
+    main ul li {
+        font-size: 1.2em;
     }
 }
 
