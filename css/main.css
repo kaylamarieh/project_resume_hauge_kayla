@@ -232,3 +232,32 @@ a:visited {
         width: 32%;
     }
 }
+
+/* snap */
+.full-height {
+    height: 100vh;
+}
+
+.pale {
+    background-color: #fdeef0;
+}
+
+.purple {
+    background-color: #d9c3df;
+}
+
+.blue {
+    background-color: #ccecfc;
+}
+
+.green {
+    background-color: #ddeedd;
+}
+
+.yellow {
+    background-color: #fcf7be;
+}
+
+.pink {
+    background-color: #faced6;
+}
