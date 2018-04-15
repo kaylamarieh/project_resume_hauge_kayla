@@ -112,14 +112,16 @@ a:visited {
 #edu,
 #work,
 #skills,
-#interests {
+#interests,
+#contact {
     padding: 2%;
 }
 
 #edu h2,
 #work h2,
 #skills h2,
-#interests h2 {
+#interests h2,
+#contact h2 {
     padding: 3%;
     font-size: 1.6em;
 }
@@ -140,4 +142,30 @@ a:visited {
     display: inline-block;
     width: 49%;
     text-align: center;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.3em;
+    padding: 3%;
+}
+
+#contact ul {
+    padding-left: 0;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#contact ul li {
+    list-style-type: none;
+    display: inline;
+    width: 20%;
+    padding: 5%;
+}
+
+#contact img {
+    width: 10%;
 }
