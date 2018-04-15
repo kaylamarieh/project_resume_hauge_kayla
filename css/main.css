@@ -46,6 +46,10 @@ nav ul li {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 p,
 ul li {
     font-family: 'Raleway', sans-serif;
@@ -86,7 +90,7 @@ header h1 {
 }
 
 header img {
-    width: 80%;
+    width: 40%;
     max-width: 500px;
     margin: 2%;
 }
@@ -123,7 +127,6 @@ a:visited {
 #interests h2,
 #contact h2 {
     padding: 3%;
-    font-size: 1.6em;
 }
 
 #edu article,
@@ -168,4 +171,64 @@ a:visited {
 
 #contact img {
     width: 10%;
+}
+
+@media (min-width: 600px) {
+
+    header ul li {
+        display: inline-block;
+        width: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+
+    h1 {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10%;
+    }
+
+    header img {
+        width: 20%;
+        margin: 10%;
+    }
+
+    #edu article {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+
+    #work article {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    #skills article {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+
+    #interests article {
+        width: 30%;
+        vertical-align: top;
+    }
+
+    #contact img {
+        width: 5%;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    nav ul li {
+        width: 15%;
+    }
+
+    #work article {
+        width: 32%;
+    }
 }
