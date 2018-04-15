@@ -231,13 +231,28 @@ a:visited {
     #work article {
         width: 32%;
     }
+
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fdeef0;
+    }
+
+    #edu,
+    #work,
+    #skills,
+    #interests,
+    #contact {
+        padding-top: 8%;
+    }
+
+    #interests img {
+        width: 30%;
+    }
 }
 
-/* snap */
-.full-height {
-    height: 100vh;
-}
-
+/* scrollify */
 .pale {
     background-color: #fdeef0;
 }
