@@ -100,3 +100,24 @@ nav ul li {
     padding: 3%;
     font-size: 1.3em;
 }
+
+a,
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: #0c2630;
+}
+
+#edu {
+    padding: 2%;
+}
+
+#edu h2 {
+    padding: 3%;
+    font-size: 1.6em;
+}
+
+#edu article {
+    padding: 3%;
+}
