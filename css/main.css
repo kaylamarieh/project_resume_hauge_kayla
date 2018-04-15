@@ -60,11 +60,16 @@ header {
     background-image: url('../img/pale.png');
 }
 
+#headshot {
+    border: 20px solid #ffffff;
+}
+
 #edu {
     background-color: #d9c3df;
     background-image: url('../img/purple.png');
 }
 
+#info,
 #edu article,
 #work article,
 #skills article,

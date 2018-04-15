@@ -18,6 +18,8 @@ $(document).ready(function () {
         'News Consumer'
     ], {loop: true});
 
+    $('#info').css({'transition': 'opacity 1s ease-in', 'opacity': '1'});
+
     //section text fade in
     $(window).scroll(function () {
         var y = window.scrollY;
@@ -33,5 +35,7 @@ $(document).ready(function () {
             $('footer p, footer ul').css({'transition': 'opacity 0.8s ease-in', 'opacity': '1'});
         }
     });
+
+
 
 });
