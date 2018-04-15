@@ -109,15 +109,18 @@ a:visited {
     color: #0c2630;
 }
 
-#edu {
+#edu,
+#work {
     padding: 2%;
 }
 
-#edu h2 {
+#edu h2,
+#work h2, {
     padding: 3%;
     font-size: 1.6em;
 }
 
-#edu article {
+#edu article,
+#work article {
     padding: 3%;
 }
