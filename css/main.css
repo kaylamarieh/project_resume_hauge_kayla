@@ -111,19 +111,33 @@ a:visited {
 
 #edu,
 #work,
-#skills {
+#skills,
+#interests {
     padding: 2%;
 }
 
 #edu h2,
 #work h2,
-#skills h2 {
+#skills h2,
+#interests h2 {
     padding: 3%;
     font-size: 1.6em;
 }
 
 #edu article,
 #work article,
-#skills article {
+#skills article,
+#interests article {
     padding: 3%;
+}
+
+#interests img {
+    width: 50%;
+    padding: 2%;
+}
+
+#interests article {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
 }
