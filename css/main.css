@@ -110,17 +110,20 @@ a:visited {
 }
 
 #edu,
-#work {
+#work,
+#skills {
     padding: 2%;
 }
 
 #edu h2,
-#work h2, {
+#work h2,
+#skills h2 {
     padding: 3%;
     font-size: 1.6em;
 }
 
 #edu article,
-#work article {
+#work article,
+#skills article {
     padding: 3%;
 }
