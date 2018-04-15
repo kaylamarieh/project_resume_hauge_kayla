@@ -57,26 +57,41 @@ ul li {
 
 header {
     background-color: #fdeef0;
+    background-image: url('../img/pale.png');
 }
 
 #edu {
     background-color: #d9c3df;
+    background-image: url('../img/purple.png');
+}
+
+#edu article,
+#work article,
+#skills article,
+#interests article,
+#contact p,
+#contact ul {
+    opacity: 0;
 }
 
 #work {
     background-color: #ccecfc;
+    background-image: url('../img/blue.png');
 }
 
 #skills {
     background-color: #ddeedd;
+    background-image: url('../img/green.png');
 }
 
 #interests {
     background-color: #fcf7be;
+    background-image: url('../img/yellow.png');
 }
 
 footer {
     background-color: #faced6;
+    background-image: url('../img/pink.png');
 }
 
 header {
@@ -132,7 +147,8 @@ a:visited {
 #edu article,
 #work article,
 #skills article,
-#interests article {
+#interests article,
+#contact p {
     padding: 3%;
 }
 
@@ -148,15 +164,13 @@ a:visited {
 }
 
 #contact p {
-    text-align: center;
     font-size: 1.3em;
-    padding: 3%;
+    padding-left: 6%;
 }
 
 #contact ul {
     padding-left: 0;
     padding-top: 5%;
-    text-align: center;
 }
 
 #contact ul li {
