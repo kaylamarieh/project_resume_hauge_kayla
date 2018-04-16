@@ -1,10 +1,10 @@
 # Resume
 * Kayla Hauge
 * 04-15-2018
-* [Github Repo link]()
-* [Web Host]()
-* [W3C Validator]()
-* [HTML5 Ouliner]()
+* [Github Repo link](https://github.com/kaylamarieh/project_resume_hauge_kayla)
+* [Web Host](http://kaylahauge.com/project_resume_hauge_kayla/)
+* [W3C Validator](https://validator.w3.org/unicorn/check?ucn_uri=kaylahauge.com%2Fproject_resume_hauge_kayla%2F&ucn_task=conformance#)
+* [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fkaylahauge.com%2Fproject_resume_hauge_kayla%2F)
 
 ## Resources
 
