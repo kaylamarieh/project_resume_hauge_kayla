@@ -318,3 +318,16 @@ a:visited {
 .pink {
     background-color: #faced6;
 }
+
+#skills div {
+    text-align: center;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    padding: 2%;
+    margin: 5%;
+    background-color: transparent;
+    border: #0c2630 solid 2px;
+}

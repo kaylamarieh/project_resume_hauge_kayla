@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var windowSize = $(window).height();
+    //var windowSize = $(window).height();
 
     //scrollify
     $.scrollify({
@@ -22,6 +22,7 @@ $(document).ready(function () {
 
     //section text fade in
     $(window).scroll(function () {
+        var windowSize = $(window).height();
         var y = window.scrollY;
         if (y > 0 && y <= windowSize) {
             $('#edu article').css({'transition': 'opacity 0.8s ease-in', 'opacity': '1'});
