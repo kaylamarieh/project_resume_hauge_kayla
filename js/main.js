@@ -37,6 +37,7 @@ $(document).ready(function () {
         }
     });
 
+    //all links to other sites on button click
     $('button').click(function () {
         $('#skills div').append('<p><a href="http://kaylahauge.com/" target="_blank">Annimation</a></p><p><a href="http://kaylahauge.com/p2_hauge_kayla/index.html" target="_blank">Portfolio</a></p><p><a href="http://kaylahauge.com/p4_hauge_kayla/index.html" target="_blank">Unicorn</p>');
     });
